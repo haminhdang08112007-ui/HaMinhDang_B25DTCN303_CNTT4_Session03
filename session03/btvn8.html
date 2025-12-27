@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký hội viên</title>
+</head>
+<body>
+
+<h3>Hãy sử dụng các thẻ HTML để tạo ra trang web như sau:</h3>
+
+<form>
+
+    <p>
+        Họ và tên:
+        <input type="text" name="hoten">
+    </p>
+
+    <p>
+        Ngày sinh:
+        <input type="date" name="ngaysinh">
+    </p>
+
+    <p>
+        Giới tính:
+        <input type="radio" name="gioitinh" value="nam"> Nam
+        <input type="radio" name="gioitinh" value="nu"> Nữ
+    </p>
+
+    <p>
+        Số điện thoại:
+        <input type="tel" name="sdt">
+    </p>
+
+    <p>
+        Email:
+        <input type="email" name="email">
+    </p>
+
+    <p>
+        Tên công ty:
+        <input type="text" name="tencongty">
+    </p>
+
+    <p>
+        Vai trò trong công ty:
+        <select name="vaitro">
+            <option>Giám đốc điều hành (CEO)</option>
+            <option>Quản lý</option>
+            <option>Nhân viên</option>
+            <option>Khác</option>
+        </select>
+    </p>
+
+    <p>
+        Quy mô công ty:
+        <select name="quymo">
+            <option>Doanh nghiệp nhỏ</option>
+            <option>Doanh nghiệp vừa</option>
+            <option>Doanh nghiệp lớn</option>
+        </select>
+    </p>
+
+    <p>
+        Ngành nghề công ty:
+        <input type="text" name="nganhnghe">
+    </p>
+
+    <p>
+        Lý do tham gia câu lạc bộ:<br>
+        <textarea name="lydo" rows="3" cols="40"></textarea>
+    </p>
+
+    <p>
+        Kinh nghiệm lãnh đạo:<br>
+        <textarea name="kinhnghiem" rows="3" cols="40"></textarea>
+    </p>
+
+    <p>
+        Mục tiêu khi tham gia câu lạc bộ:<br>
+        <textarea name="muctieu" rows="3" cols="40"></textarea>
+    </p>
+
+    <p>
+        Chương trình sự kiện mong muốn tham gia:<br>
+        <input type="checkbox" name="sukien" value="networking"> Networking
+        <input type="checkbox" name="sukien" value="workshops"> Workshops
+        <input type="checkbox" name="sukien" value="hoithao"> Hội thảo
+    </p>
+
+    <p>
+        Đăng ký nhận bản tin:
+        <input type="checkbox" name="bantin"> Có
+    </p>
+
+    <button type="submit">Đăng ký hội viên</button>
+
+</form>
+
+</body>
+</html>
